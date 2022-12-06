@@ -10,49 +10,64 @@
 
     <body>
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-            <a href="#" class="navbar-brand">编程道理</a>
-            <!-- 可变式菜单按钮 -->
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navmenu"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navmenu">
-                <!--ms-auto=margin start=margin left-->
-                <!-- 不知道为什么没有标签 看看什么问题 -->
-                <!-- 现在有了 id写错了 -->
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <div class="nav-link">说的道理</div>
-                    </li>
-                    <li class="nav-item">
-                        <div class="nav-link">寄寄子入侵</div>
-                    </li>
-                    <li class="nav-item">
-                        <div class="nav-link">我操！冰！！</div>
-                    </li>
-                </ul>
+            <!-- 没装容器里导致标题偏移 fixed -->
+            <div class="container">
+                <a href="#" class="navbar-brand">编程道理</a>
+                <!-- 响应式菜单按钮 -->
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navmenu"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <!--ms-auto=margin start=margin left-->
+                    <!-- 不知道为什么没有标签 看看什么问题 -->
+                    <!-- 现在有了 id写错了 fixed -->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <div class="nav-link">说的道理</div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="nav-link">寄寄子入侵</div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="nav-link">我操！冰！！</div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
-        <section class="p-5">
+        <!-- padding-5 背景暗色 字体亮色 图片不展示时文字居中 -->
+        <section class="p-5 bg-dark text-light text-center">
             <div class="container">
                 <!-- display flex -->
                 <div class="d-flex">
                     <div>
                         <h1>成为一个<span class="text-warning">fumo</span></h1>
-                        <!-- margin-top margin-bottom -->
+                        <!-- margin-top margin-bottom margin的y轴 -->
                         <p class="my-4">
-                            首先纠正一个错误，作为远古之神，正确的简称应该是“元神”。回到正题从神显现的那一天起，神具象化的躯体是在不断变化的。神具象化的形体多种多样，我们就说它最明显的部位“脸”。神的面庞是变化的，时而正三角、时而倒三角，时而化身为米浴，。。。。但是不论神如何变化，神一直都在不断地诉说着同一段奇奇怪怪的话，一遍又一遍、一遍又一遍。起初人们无法理解神究竟想说什么，但神还是一遍遍地诉说着。终于有一天，人们从神的话语中分辨出了简短的一句话：“啊↓-↑~~~米↓浴↑说↓的↑道↓~~理↑↑↑~~~”
-                            不变的还有神那愉悦的面庞。所以神是一个爱马仕，并且很喜欢米浴。因为赛马在日本那边很受欢迎，所以神的故乡在日本可能性微存。接下来分析神口中的米浴。因为人听不懂马说了什么，所以我们从这匹马的经历入手，以下内容摘自bilibili赛马娘wiki：1995年4月23日，第111届春天皇赏在京都赛马场正式展开。本来毫无疑问一位人气应该是在前哨战阪神大赏典上压胜的三冠王成田白仁，但白仁因关节炎回避了春天皇赏。而这也导致米浴成为了出走马中唯一的G1优胜马。但即便如此，他也只获得了四位人气的支持。比赛开始，出闸之后米浴保持在六七的位置。但和平时不一样的是，比赛过去一半的时候，米浴就有了要冲到前面的意思。那是久违的雄雄燃烧的斗志。的场在这个瞬间也感受到了米浴的干劲。他想趁着这份干劲，一鼓作气将这势头保持到终点。采用这种大胆的战术，与赌博无异。可就算是这样，的场从米浴的眼睛里，也看到了微小的渺茫的获胜的希望。“那就赌一把！”米浴发动奇袭，在上坡的时候就开始加速，直接冲到马群的前方，在第三弯道夺走先头位置，并在第四弯道继续保持领先，抢在马群前方率先进入直线。在离终点还有200m的时候，米浴身后的舞台冠军开始发力，从外侧猛冲展现了强大的末脚。但米浴凭借着强大的毅力和精神力，以毫厘之差，顶住了身后马群的追击。在经历了728天的低迷后，米浴再一次于春天皇的舞台上，绽放了耀眼的光芒。时隔两年多，七岁的米浴再次拿下了G1胜利。曾经被称为刺客的米浴，如今成为了复活的英雄。欢呼声一浪接着一浪，他终于得到了属于他的掌声和荣耀。“波旁和麦昆都会为此感到开心的吧”如果故事在这里结束，那这就是一本完美的英雄故事。1995年6月4日，第36回宝冢纪念在京都赛马场正式展开。在粉丝投票中获得第一名的米浴以6.0倍的赔率居于三位人气。对于米浴，大家还是很期待他的表现的。比赛开始后，米浴并没有像上场比赛那样采用激进的战术，而是选择在后方待机。但在跑过第一个弯道的时候，的场就感觉到了不对劲。“今天不是能赢的样子，得慎重的策骑”尽管如此，在来到第三个弯道的时候，米浴心中尚存的斗志，让他自己主动加快了速度。随后，悲剧发生了——米浴的身体失去控制，重重的摔在了地上。骨头刺穿了肌肉，赛马场内的欢呼变成了悲鸣。脱臼加上粉碎性骨折，米浴甚至没法坚持到诊所，在赛马场内就被安乐死了。米浴的本意，是指一种在结婚仪式上向新郎新娘撒米祝福的一种仪式。这个名字，也包含着希望每一个接触到这匹马的人都能得到幸福的祝愿。只是，后来发生的种种，却使得米浴的命运逐渐与这个名字的含义背道而驰。现实中，生命在出生的那一刻并没有像游戏一样“被赋予主线任务”，即没有被赋予“存在的意义”。世界上每一个生命，很大程度上是靠着求生的本能而盲目地活着。往往在人生的低谷，人会对自己的存在产生疑问，质疑活下去的意义。“明明活着要不可避免的面对各种问题和痛苦，那么活着的理由是什么？”这个问题的答案是：“没有意义”没有哪个外在的个体会赐予你完全成立的理由。但是在人生的某一刻，有没有过这种感觉：“因为能够感受到痛苦/喜悦，所以发现自己是活着的”“因为人生只有一次，死亡即是丧失任何知觉的状态，所以感受就变得尤为重要”“当处于困境时，当处境变得极为煎熬时，当停下来选择放弃的念头不断出现时。”“脑内的意志不停的冲突，
-                            身体与精神在边缘垂死挣扎”这是极致的“感受”，而“意义”也将在此诞生。正如德国哲学家马克斯·韦伯所说的一句话：“人是活在自己所编织的意义之网上的动物”。人要从自己的人生中提炼出属于自己的意义，人会赋予自己存在的价值！我们仍未知道那天，神一遍遍颂扬的内容全貌是什么。但我们心中应该有自己的答案。
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Eaque beatae reiciendis, tempore ad voluptatum
+                            corrupti tenetur voluptates debitis magnam earum
+                            eius amet excepturi minima eum. Ipsum magni dolor
+                            aperiam quaerat. Nemo repellat, laudantium omnis
+                            dicta eos a aliquid minima totam minus eius
+                            dignissimos facere quos nam at optio excepturi dolor
+                            voluptas dolorum soluta deserunt molestias provident
+                            laboriosam ea rerum! Doloribus?
                         </p>
                         <button class="btn btn-primary btn-lg">开始发电</button>
                     </div>
-                    <img src="img/showcase.svg" alt="showcase" class="w-50" />
+                    <img
+                        src="img/showcase.svg"
+                        alt="showcase"
+                        class="w-50 d-none d-md-block"
+                    />
+                    <!-- d-none=默认不展示图片 d-md-block=中等屏幕尺寸恢复展示  -->
                 </div>
             </div>
         </section>
