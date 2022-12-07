@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>编程道理</title>
         <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/style.css" />
     </head>
 
     <body>
@@ -41,8 +42,8 @@
             </div>
         </nav>
 
-        <!-- padding-5 背景暗色 字体亮色 图片不展示时文字居中 -->
-        <section class="p-5 bg-dark text-light text-center">
+        <!-- padding-5 背景暗色 字体亮色 图片不展示时文字居中 到达一定尺寸后自动对齐文字-->
+        <section class="p-5 bg-dark text-light text-center text-sm-start">
             <div class="container">
                 <!-- display flex -->
                 <div class="d-flex">
@@ -68,6 +69,28 @@
                         class="w-50 d-none d-md-block"
                     />
                     <!-- d-none=默认不展示图片 d-md-block=中等屏幕尺寸恢复展示  -->
+                </div>
+            </div>
+        </section>
+        <section class="p-5 bg-primary text-light">
+            <div class="container">
+                <!-- m-md-flex=间距调整 重要？ -->
+                <div
+                    class="d-md-flex justify-content-between align-items-center"
+                >
+                    <!-- mb-3是啥 明天看看文档x -->
+                    <h3 class="mb-3">现在订阅让我们向你发送垃圾邮件</h3>
+                    <!-- 一个正常的输入框 带响应式的 笑 -->
+                    <!-- 《关于因为bootstrap做不到所以我自己写css这件事》 -->
+                    <div class="input-group waht-input">
+                        <input
+                            type="text"
+                            class="form-control"
+                            placeholder="快对我输邮箱🥵"
+                        />
+                        <!-- 黑♂暗♂按♂钮 -->
+                        <div class="btn btn-dark btn-lg">订♂阅</div>
+                    </div>
                 </div>
             </div>
         </section>
